@@ -3,18 +3,6 @@
         "en": {
             "title": "My <span class='text-primary'>Portfolio</span>",
             "description": "Explore a selection of my recent projects and creative works."
-        },
-        "es": {
-            "title": "Mi <span class='text-primary'>Portafolio</span>",
-            "description": "Explora una selección de mis proyectos recientes y trabajos creativos."
-        },
-        "fr": {
-            "title": "Mon <span class='text-primary'>Portfolio</span>",
-            "description": "Découvrez une sélection de mes projets récents et œuvres créatives."
-        },
-        "zh": {
-            "title": "我的<span class='text-primary'>作品集</span>",
-            "description": "浏览我最近的一些项目和创意作品。"
         }
     },
 

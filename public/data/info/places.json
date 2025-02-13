@@ -75,5 +75,13 @@
         "locales": {
             "en": {"name": "UX Masters Studio"}
         }
+    },
+
+    "tum": {
+        "logoUrl": "images/places/logo-tum.png",
+        "faIcon": "fas fa-paint-brush",
+        "locales": {
+            "en": {"name": "Technical University of Munich"}
+        }
     }
 }

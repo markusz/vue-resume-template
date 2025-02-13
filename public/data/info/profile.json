@@ -1,44 +1,29 @@
 {
-    "name": "Jonas Einstein",
-    "profilePictureUrl": "images/pictures/avatar.png",
+    "name": "Markus Ziller",
+    "profilePictureUrl": "images/pictures/me500x500.png",
 
     "locales": {
         "en": {
-            "credits": "Designed by <strong><a class='light' href='https://github.com/ryanbalieiro'>Ryan Balieiro</a></strong>",
-            "role": "UX Designer"
-        },
-
-        "es": {
-            "credits": "Hecho por <strong><a class='light' href='https://github.com/ryanbalieiro'>Ryan Balieiro</a></strong>",
-            "role": "Designer de UX"
-        },
-
-        "fr": {
-            "credits": "Conçu par <strong><a class='light' href='https://github.com/ryanbalieiro'>Ryan Balieiro</a></strong>",
-            "role": "Designer UX"
-        },
-
-        "zh": {
-            "credits": "设计：<strong><a class='light' href='https://github.com/ryanbalieiro'>Ryan Balieiro</a></strong>",
-            "role": "用户体验设计师"
+            "credits": "",
+            "role": "Software Engineer"
         }
     },
 
     "contact": {
         "address": {
             "id": "address",
-            "value": "123 Main Street, Cupertino, CA 01234",
-            "valueShort": "Cupertino, CA 01234",
+            "value": "Munich, Germany",
+            "valueShort": "Munich, \uD83C\uDDE9\uD83C\uDDEA",
             "faIcon": "fa-solid fa-city",
             "href": null
         },
 
         "email": {
             "id": "email",
-            "value": "jonas.einstein@genius.com",
-            "valueShort": "jonas.einstein@genius.com",
+            "value": "hello@markusziller.de",
+            "valueShort": "hello@markusziller.de",
             "faIcon": "fa-solid fa-envelope",
-            "href": "mailto:jonas.einstein@genius.com"
+            "href": "mailto:hello@markusziller.de"
         },
 
         "facebook": {
@@ -51,8 +36,8 @@
 
         "github": {
             "id": "github",
-            "value": "@jonas.einstein.official",
-            "valueShort": "@jonas.einstein.official",
+            "value": "https://github.com/markusz",
+            "valueShort": "https://github.com/markusz",
             "faIcon": "fa-brands fa-github",
             "href": "https://github.com"
         },
