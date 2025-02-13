@@ -57,13 +57,6 @@
             "component": "GallerySection",
             "jsonPath": "data/sections/portfolio.json",
             "faIcon": "fa-solid fa-folder-open"
-        },
-        {
-            "id": "contact",
-            "categoryId": "more",
-            "component": "ContactSection",
-            "jsonPath": "data/sections/contact.json",
-            "faIcon": "fa-solid fa-pen-to-square"
         }
     ]
 }

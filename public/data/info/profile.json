@@ -13,7 +13,7 @@
         "address": {
             "id": "address",
             "value": "Munich, Germany",
-            "valueShort": "Munich, \uD83C\uDDE9\uD83C\uDDEA",
+            "valueShort": "Munich, Germany",
             "faIcon": "fa-solid fa-city",
             "href": null
         },

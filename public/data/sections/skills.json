@@ -29,13 +29,24 @@
       }
     },
     {
-      "id": "extra",
+      "id": "tech",
       "type": "grid",
       "progress": null,
       "faIcon": "",
       "locales": {
         "en": {
           "title": "Technologies"
+        }
+      }
+    },
+    {
+      "id": "other",
+      "type": "grid",
+      "progress": null,
+      "faIcon": "",
+      "locales": {
+        "en": {
+          "title": "Other"
         }
       }
     }
@@ -155,7 +166,7 @@
         }
       }
     ],
-    "extra": [
+    "tech": [
       {
         "imageIconUrl": null,
         "faIcon": "fab fa-aws",
@@ -191,6 +202,19 @@
       },
       {
         "imageIconUrl": null,
+        "faIcon": "fa-solid fa-envelope",
+        "value": 85,
+        "locales": {
+          "en": {
+            "title": "Event streaming platforms",
+            "description": "Experience Time: 5 years"
+          }
+        }
+      }
+    ],
+    "other": [
+      {
+        "imageIconUrl": null,
         "faIcon": null,
         "value": null,
         "locales": {
@@ -221,30 +245,8 @@
             "description": "Proficient in analyzing data with a focus on the needs and preferences of users, enabling data-driven decisions that align with user expectations."
           }
         }
-      },
-      {
-        "imageIconUrl": null,
-        "faIcon": null,
-        "value": null,
-        "locales": {
-          "en": {
-            "title": "Mobile App User Experience",
-            "description": "Skilled in crafting user-centered experiences within mobile applications, ensuring smooth and intuitive interactions."
-          },
-          "es": {
-            "title": "Experiencia de Usuario en Aplicaciones Móviles",
-            "description": "Experto en crear experiencias centradas en el usuario en aplicaciones móviles, garantizando interacciones fluidas e intuitivas."
-          },
-          "fr": {
-            "title": "Expérience Utilisateur d'Applications Mobiles",
-            "description": "Compétent dans la création d'expériences centrées sur l'utilisateur au sein des applications mobiles, garantissant des interactions fluides et intuitives."
-          },
-          "zh": {
-            "title": "移动应用用户体验",
-            "description": "擅长在移动应用中打造以用户为中心的体验，确保流畅而直观的交互。"
-          }
-        }
       }
     ]
+
   }
 }
