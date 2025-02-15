@@ -1,111 +1,138 @@
 {
-    "locales": {
-        "en": {
-            "title": "My <span class='text-primary'>Portfolio</span>",
-            "description": "Some of the recent projects I worked on."
-        }
-    },
-
-    "subcategories": [
-        {
-            "id": "private",
-            "locales": {
-                "en": {"title": "Private Projects"}
-            }
-        },
-        {
-            "id": "aws",
-            "locales": {
-                "en": {"title": "AWS"}
-            }
-        }
-    ],
-
-    "items": {
-        "private": [
-            {
-                "id": "breachprotocol",
-                "title": "breachprotocol.io",
-                "shortDescription": "Solve Cyberpunk 2077 mini-games with AI.",
-                "logoUrl": "images/portfolio/project-bp.png",
-                "previewUrl": "images/demos/bp.gif",
-                "links": [
-                    {"faIcon": "fa-brands fa-apple", "href": "https://apple.com", "id": "App Store"},
-                    {"faIcon": "fa-brands fa-google-play", "href": "https://googleplay.com", "id": "Google Play"}
-                ],
-                "locales": {
-                    "en": {
-                        "description": "breachprotocol.io is an online tool that helps Cyberpunk 2077 players solve Breach Protocol puzzles. It uses multi-modal LLMs to analyze screenshots of the puzzle grid and then calculates the most efficient sequence of codes to complete the breach, saving players time and frustration.",
-                        "tags": ["app", "productivity", "tasks", "focus"]
-                    }
-                }
-            },
-            {
-                "id": "tta",
-                "title": "through-the-ages.com",
-                "shortDescription": "Compare before and after photos of iconic places.",
-                "logoUrl": "images/portfolio/project-ob.png",
-                "previewUrl": "images/demos/tta.gif",
-                "links": [],
-                "locales": {
-                    "en": {
-                        "description": "Through the Ages lets you explore the past and present of any location with side-by-side before-and-after photos. Users can upload historical and modern images from the same spot, compare them with an interactive slider, and browse a map of transformations over time. Discover how places evolve and contribute to a growing visual history of the world!",
-                        "tags": ["app", "productivity", "tasks", "focus"]
-                    }
-                }
-            },
-            {
-                "id": "blitzerheld",
-                "title": "Blitzerheld",
-                "shortDescription": "Let Alexa warn you of radar-traps.",
-                "logoUrl": "images/portfolio/project-blitzerheld.png",
-                "links": [
-                    {"faIcon": "fa-brands fa-github", "href": "https://apple.com", "id": "App Store"},
-                    {"faIcon": "fa-brands fa-aws", "href": "https://googleplay.com", "id": "Google Play"},
-                    {"faIcon": "fa-brands fa-windows", "href": "https://windows.com", "id": "Windows Store"}
-                ],
-                "locales": {
-                    "en": {
-                        "description": "<b>SmartCash</b> is your smart companion for personal finance, empowering you to take control of your money effortlessly. With its user-friendly interface, SmartCash provides real-time tracking of your expenses and income, enabling you to identify spending patterns and make informed financial decisions. Stay on top of your budget as SmartCash offers personalized recommendations to save money and achieve your financial goals without compromising your lifestyle.",
-                        "tags": ["app", "finance", "money", "budget"]
-                    }
-                }
-            },
-            {
-                "id": "markuszillerde",
-                "title": "markusziller.de",
-                "shortDescription": "This very website, built in Vue 3.",
-                "logoUrl": "images/portfolio/project-markusziller.png",
-                "links": [],
-                "locales": {
-                    "en": {
-                        "description": "<b>SmartCash</b> is your smart companion for personal finance, empowering you to take control of your money effortlessly. With its user-friendly interface, SmartCash provides real-time tracking of your expenses and income, enabling you to identify spending patterns and make informed financial decisions. Stay on top of your budget as SmartCash offers personalized recommendations to save money and achieve your financial goals without compromising your lifestyle.",
-                        "tags": ["app", "finance", "money", "budget"]
-                    }
-                }
-            }
-
-        ],
-
-        "aws": [
-            {
-                "id": "genmail",
-                "title": "GenMail",
-                "logoUrl": "images/portfolio/project-genmail.png",
-                "shortDescription": "A privacy-first AI email assistant.",
-                "previewUrl": "images/demos/genmail.gif",
-                "showLinks": true,
-                "links": [
-                    {"faIcon": "fa-brands fa-github", "href": "https://apple.com", "id": "Github"},
-                    {"faIcon": "fa-brands fa-aws", "href": "https://catalog.us-east-1.prod.workshops.aws/workshops/672d35f0-13b4-4f6a-98c2-d6f050d10873/en-US/02-iac", "id": "AWS"}
-                ],
-                "locales": {
-                    "en": {
-                        "description": "<b>SmartCash</b> is your smart companion for personal finance, empowering you to take control of your money effortlessly. With its user-friendly interface, SmartCash provides real-time tracking of your expenses and income, enabling you to identify spending patterns and make informed financial decisions. Stay on top of your budget as SmartCash offers personalized recommendations to save money and achieve your financial goals without compromising your lifestyle.",
-                        "tags": ["app", "finance", "money", "budget"]
-                    }
-                }
-            }
-        ]
+  "locales": {
+    "en": {
+      "title": "My <span class='text-primary'>Portfolio</span>",
+      "description": "Some of the recent projects I worked on."
     }
+  },
+  "subcategories": [
+    {
+      "id": "private",
+      "locales": {
+        "en": {
+          "title": "Private Projects"
+        }
+      }
+    },
+    {
+      "id": "aws",
+      "locales": {
+        "en": {
+          "title": "AWS"
+        }
+      }
+    }
+  ],
+  "items": {
+    "private": [
+      {
+        "id": "breachprotocol",
+        "title": "breachprotocol.io",
+        "shortDescription": "Solve Cyberpunk 2077 mini-games with AI.",
+        "logoUrl": "images/portfolio/project-bp.png",
+        "previewUrl": "images/demos/bp.gif",
+        "links": [],
+        "locales": {
+          "en": {
+            "description": "<a class=\"link\" href=\"https://breachprotocol.io\">breachprotocol.io</a> is an online tool that helps Cyberpunk 2077 players solve Breach Protocol puzzles. It uses multi-modal LLMs to analyze screenshots of the puzzle grid and then calculates the most efficient sequence of codes to complete the breach, saving players time and frustration.",
+            "tags": [
+              "App",
+              "AI",
+              "LLM",
+              "Python",
+              "Vue"
+            ]
+          }
+        }
+      },
+      {
+        "id": "tta",
+        "title": "through-the-ages.com",
+        "shortDescription": "Compare before and after photos of iconic places.",
+        "logoUrl": "images/portfolio/project-ob.png",
+        "previewUrl": "images/demos/tta.gif",
+        "links": [],
+        "locales": {
+          "en": {
+            "description": "<a class=\"link\" href=\"https://through-the-ages.com\">through-the-ages.com</a> lets you explore the past and present of any location with side-by-side before-and-after photos. Users can upload historical and modern images from the same spot, compare them with an interactive slider, and browse a map of transformations over time. Discover how places evolve and contribute to a growing visual history of the world!",
+            "tags": [
+              "Images",
+              "Map",
+              "Global application"
+            ]
+          }
+        }
+      },
+      {
+        "id": "blitzerheld",
+        "title": "Blitzerheld",
+        "shortDescription": "Let Alexa warn you of radar-traps.",
+        "logoUrl": "images/portfolio/project-blitzerheld.png",
+        "links": [
+          {
+            "faIcon": "fa-brands fa-amazon",
+            "href": "https://www.amazon.de/Markus-Ziller-Blitzerheld/dp/B076JR1RMG",
+            "id": "App Store"
+          }
+        ],
+        "locales": {
+          "en": {
+            "description": "<a class=\"link\" href=\"https://www.amazon.de/Markus-Ziller-Blitzerheld/dp/B076JR1RMG\">Blitzerheld</a> is your reliable driving companion that helps you maintain appropriate speeds by alerting you to upcoming speed cameras. It works by comparing your route or location with comprehensive speed camera databases, providing precise locations of speed monitoring systems along your way.",
+            "tags": [
+              "Alexa",
+              "Smart Home"
+            ]
+          }
+        }
+      },
+      {
+        "id": "markuszillerde",
+        "title": "markusziller.de",
+        "shortDescription": "This very website, built in Vue 3.",
+        "logoUrl": "images/portfolio/project-markusziller.png",
+        "links": [],
+        "locales": {
+          "en": {
+            "description": "This very website, built with Vue 3 and Bootstrap 5. Optimized for UX and responsiveness.",
+            "tags": [
+              "Vue3"
+            ]
+          }
+        }
+      }
+    ],
+    "aws": [
+      {
+        "id": "genmail",
+        "title": "GenMail",
+        "logoUrl": "images/portfolio/project-genmail.png",
+        "shortDescription": "A privacy-first AI email assistant.",
+        "previewUrl": "images/demos/genmail.gif",
+        "showLinks": true,
+        "links": [
+          {
+            "faIcon": "fa-brands fa-github",
+            "href": "https://github.com/aws-samples/gen-ai-email-assistant-java-magazin",
+            "id": "Github"
+          },
+          {
+            "faIcon": "fa-brands fa-aws",
+            "href": "https://catalog.us-east-1.prod.workshops.aws/workshops/672d35f0-13b4-4f6a-98c2-d6f050d10873/en-US/02-iac",
+            "id": "AWS"
+          }
+        ],
+        "locales": {
+          "en": {
+            "description": "GenMail is a hands-on workshop project that demonstrates how to build a generative AI-powered email assistant using AWS serverless technologies and Large Language Models (LLMs). The project teaches participants how to create a scalable backend system that can help compose, summarize, and analyze emails more efficiently.",
+            "tags": [
+              "AI",
+              "LLM",
+              "AWS",
+              "workshop"
+            ]
+          }
+        }
+      }
+    ]
+  }
 }

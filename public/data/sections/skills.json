@@ -46,7 +46,7 @@
       "faIcon": "",
       "locales": {
         "en": {
-          "title": "Thought Leadership"
+          "title": "Public speaking & publications"
         }
       }
     },
@@ -270,6 +270,17 @@
     "thoughtleadership": [
       {
         "imageIconUrl": null,
+        "faIcon": "fa-solid fa-file",
+        "value": null,
+        "locales": {
+          "en": {
+            "title": "Eine Heuristik für die Therapeuteneinsatzplanung: Anwendung einer Generalisierung des Vehicle Routing Problems auf die medizinische Ressourcenplanung",
+            "description": "Paperback, 2014 | <a class=\"link\" href=\"https://www.amazon.de/Eine-Heuristik-Therapeuteneinsatzplanung-Generalisierung-Ressourcenplanung/dp/3639626044?language=en_GB&currency=EUR\">Link</a>"
+          }
+        }
+      },
+      {
+        "imageIconUrl": null,
         "faIcon": "fa-solid fa-microphone",
         "value": null,
         "locales": {
@@ -292,12 +303,56 @@
       },
       {
         "imageIconUrl": null,
+        "faIcon": "fa-solid fa-file",
+        "value": null,
+        "locales": {
+          "en": {
+            "title": "Use Amazon EC2 for cost-efficient cloud gaming with pay-as-you-go pricing",
+            "description": "AWS, 2021"
+          }
+        }
+      },
+      {
+        "imageIconUrl": null,
         "faIcon": "fa-solid fa-microphone",
         "value": null,
         "locales": {
           "en": {
             "title": "Thinking serverless: From business problem to serverless solutions",
             "description": "AWS Innovate for every application, 2022"
+          }
+        }
+      },
+      {
+        "imageIconUrl": null,
+        "faIcon": "fa-solid fa-microphone",
+        "value": null,
+        "locales": {
+          "en": {
+            "title": "Deploying AWS Lambda layers automatically across multiple Regions",
+            "description": "AWS, 2022"
+          }
+        }
+      },
+      {
+        "imageIconUrl": null,
+        "faIcon": "fa-solid fa-file",
+        "value": null,
+        "locales": {
+          "en": {
+            "title": "Building serverless multi-Region WebSocket APIs",
+            "description": "AWS, 2022"
+          }
+        }
+      },
+      {
+        "imageIconUrl": null,
+        "faIcon": "fa-solid fa-file",
+        "value": null,
+        "locales": {
+          "en": {
+            "title": "Using Apollo Server with Amazon EventBridge for real-time, event-driven streaming",
+            "description": "AWS, 2022"
           }
         }
       },
@@ -319,7 +374,7 @@
         "locales": {
           "en": {
             "title": "Optimize your Python functions in AWS Lambda for speed and cost‑efficiency",
-            "description": "Devoxx UK, 2023 | <a class=\"link\" href=\"https://www.youtube.com/watch?v=MA_h_OAuUmI\">Recording</a>"
+            "description": "PyCon, 2023 | <a class=\"link\" href=\"https://www.youtube.com/watch?v=MA_h_OAuUmI\">Recording</a>"
           }
         }
       },
