@@ -39,15 +39,7 @@
             "value": "https://github.com/markusz",
             "valueShort": "https://github.com/markusz",
             "faIcon": "fa-brands fa-github",
-            "href": "https://github.com"
-        },
-
-        "instagram": {
-            "id": "instagram",
-            "value": "@jonas.einstein.official",
-            "valueShort": "@jonas.einstein.official",
-            "faIcon": "fa-brands fa-instagram",
-            "href": "https://instagram.com"
+            "href": "https://github.com/markusz"
         },
 
         "linkedin": {
@@ -55,15 +47,7 @@
             "value": "@jonas.einstein.official",
             "valueShort": "@jonas.einstein.official",
             "faIcon": "fa-brands fa-linkedin",
-            "href": "https://linkedin.com"
-        },
-
-        "phone": {
-            "id": "phone",
-            "value": "+1 (123) 456-7890",
-            "valueShort": "(123) 456-7890",
-            "faIcon": "fa-solid fa-phone",
-            "href": "tel:1234567890"
+            "href": "https://www.linkedin.com/in/markusziller/"
         }
     }
 }

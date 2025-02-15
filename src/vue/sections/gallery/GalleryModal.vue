@@ -14,7 +14,8 @@
                     <!-- Content Row -->
                     <div class="row text-center text-lg-start p-2 p-md-4">
                         <!-- Image Column -->
-                        <div class="col-12 col-lg-4 pe-0 pe-lg-4">
+                        <div class="col-12 col-lg-6 pe-0 pe-lg-4">
+
                             <ImageView  :src="props.project['logoUrl']"
                                         :alt="props.project['title']"
                                         :spinner-enabled="true"
@@ -22,7 +23,7 @@
                         </div>
 
                         <!-- Texts Column -->
-                        <div class="col-12 col-lg-8">
+                        <div class="col-12 col-lg-6">
                             <!-- Title -->
                             <h1 class="fw-bold mb-3" v-html="props.project['title']"/>
 

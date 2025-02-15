@@ -1,47 +1,81 @@
 {
-    "locales": {
+  "locales": {
+    "en": {
+      "title": "<span class='text-primary'>Professional</span> Experience",
+      "description": "My professional experience since graduating university."
+    }
+  },
+  "items": [
+    {
+      "id": "experience_item_1",
+      "place": "@link{places.netlight}",
+      "period": [
+        "2013/12",
+        "2016/09"
+      ],
+      "locales": {
         "en": {
-            "title": "<span class='text-primary'>Professional</span> Experience",
-            "description": "A look into my work experience and career journey."
+          "title": "Software Engineer",
+          "description": "I led the development of a highly scalable second-screen application, boosting its elasticity by 350%, enabling it to scale from 0 to 42K concurrent connections in just one minute. I also reduced operational costs by 40% through right-sizing and efficient caching. As a backend engineer, I contributed to a VOD solution for Deutsche Bahn’s high-speed trains, developed deployment tools for software updates across 80 trains, and improved an ad-tech solution, cutting error rates and saving ~600K€ annually.",
+          "tags": [
+            "Scalability",
+            "Software Engineering",
+            "Event-Driven Architecture",
+            "Serverless"
+          ]
         }
+      }
     },
-
-    "items": [
-        {
-            "id": "experience_item_1",
-            "place": "@link{places.netlight}",
-            "period": ["2013/12", "2016/09"],
-            "locales": {
-                "en": {
-                    "title": "Software Engineer",
-                    "description": "Contributed to designing intuitive and user-friendly web application interfaces, creating engaging and seamless user experiences. Collaborated closely with cross-functional teams and stakeholders to ensure designs aligned with business goals and user needs.",
-                    "tags": ["Figma", "Wireframing", "Prototyping", "Responsive Design", "User Research"]
-                }
-            }
-        },
-        {
-            "id": "experience_item_2",
-            "place": "@link{places.joyn}",
-            "period": ["2016/10", "2019/10"],
-            "locales": {
-                "en": {
-                    "title": "Director of Engineering",
-                    "description": "Contributed to designing intuitive and user-friendly web application interfaces, creating engaging and seamless user experiences. Collaborated closely with cross-functional teams and stakeholders to ensure designs aligned with business goals and user needs.",
-                    "tags": ["Figma", "Wireframing", "Prototyping", "Responsive Design", "User Research"]
-                }
-            }
-        },
-        {
-            "id": "experience_item_3",
-            "place": "@link{places.aws}",
-            "period": ["2019/10", "2025/01"],
-            "locales": {
-                "en": {
-                    "title": "Senior Solutions Architect",
-                    "description": "Contributed to designing intuitive and user-friendly web application interfaces, creating engaging and seamless user experiences. Collaborated closely with cross-functional teams and stakeholders to ensure designs aligned with business goals and user needs.",
-                    "tags": ["Figma", "Wireframing", "Prototyping", "Responsive Design", "User Research"]
-                }
-            }
+    {
+      "id": "experience_item_2",
+      "place": "@link{places.joyn}",
+      "period": [
+        "2016/10",
+        "2019/10"
+      ],
+      "locales": {
+        "en": {
+          "title": "Director of Engineering",
+          "description": "I led ProSiebenSat.1’s Content Services Engineering division, delivering video-on-demand to 20M+ MAU through a distributed, event-driven architecture with 50+ microservices. I drove significant improvements, reducing latency by 82%, speeding up deployments from monthly to daily, and reengineering the B2B content syndication pipeline. As part of the core engineering team, I helped launch Joyn in 9 months, scaled the division to 45+ FTEs, and delivered an AWS migration ahead of schedule and under budget.",
+          "tags": [
+            "Tech leadership",
+            "Cloud Architecture",
+            "Distributed Systems",
+            "Engineering Efficiency",
+            "AWS",
+            "Distributed Systems",
+            "Manager of managers",
+            "Hypergrowth"
+          ]
         }
-    ]
+      }
+    },
+    {
+      "id": "experience_item_3",
+      "place": "@link{places.aws}",
+      "period": [
+        "2019/10",
+        "2025/01"
+      ],
+      "locales": {
+        "en": {
+          "title": "Senior Solutions Architect",
+          "description": "I design and optimize high-scale cloud architectures, handling millions of transactions and petabyte-scale data across global, multi-region deployments. With expertise in distributed systems and event-driven architectures, I’ve built platforms for 30k+ users and mentored team members who earned promotions. I’ve contributed to major open-source projects, published over 15 technical papers, and regularly speak at tier-1 tech conferences.",
+          "tags": [
+            "AWS",
+            "Cloud Architecture",
+            "Distributed Systems",
+            "Event-Driven Architecture",
+            "Software Engineering",
+            "Microservices",
+            "OSS",
+            "Thought Leadership",
+            "Rust",
+            "Python",
+            "TypeScript"
+          ]
+        }
+      }
+    }
+  ]
 }

@@ -60,7 +60,7 @@
         "locales": {
           "en": {
             "title": "Data-intensive applications",
-            "description": "todo"
+            "description": "Proven track record in architecting systems that efficiently process, store, and analyze massive amounts of data while maintaining performance and reliability"
           }
         }
       },
@@ -71,7 +71,18 @@
         "locales": {
           "en": {
             "title": "Distributed systems",
-            "description": "Masterful at creating captivating designs, blending color theory, typography, layout, and balance for effective messaging."
+            "description": "Expertise in designing and implementing large-scale distributed systems with focus on consistency, fault tolerance, and global data distribution across multiple regions"
+          }
+        }
+      },
+      {
+        "imageIconUrl": null,
+        "faIcon": "fa-solid fa-hexagon-nodes",
+        "value": null,
+        "locales": {
+          "en": {
+            "title": "Event-driven architectures",
+            "description": "Deep understanding of event-driven design principles, message brokers, and asynchronous communication patterns to build loosely coupled, scalable systems."
           }
         }
       },
@@ -81,8 +92,8 @@
         "value": null,
         "locales": {
           "en": {
-            "title": "Systems design",
-            "description": "Skilled in creating detailed wireframes to visualize and plan user interfaces, effectively laying the foundation for intuitive design."
+            "title": "API Design",
+            "description": "Strong foundation in creating intuitive, performant, and scalable APIs with emphasis on backward compatibility, documentation, and developer experience."
           }
         }
       },
@@ -92,8 +103,19 @@
         "value": null,
         "locales": {
           "en": {
-            "title": "Software engineering",
-            "description": "Enhancing user experiences through comprehensive usability testing."
+            "title": "Cloud Architecture",
+            "description": "Comprehensive knowledge of cloud-native design principles, including infrastructure as code, serverless architectures, and multi-cloud strategies, with focus on security, cost-optimization, and operational excellence."
+          }
+        }
+      },
+      {
+        "imageIconUrl": null,
+        "faIcon": "fa-solid fa-code",
+        "value": null,
+        "locales": {
+          "en": {
+            "title": "High-availability patterns",
+            "description": "Extensive experience in designing systems that scale horizontally and vertically, with expertise in caching strategies, load balancing, and performance optimization"
           }
         }
       }
@@ -106,7 +128,7 @@
         "locales": {
           "en": {
             "title": "Python",
-            "description": "Experience Time: 15 years"
+            "description": "<span style='font-weight: 800; color: #6c6868;'>12 years</span> of experience in building production-grade applications, demonstrated through projects like PyChess and breachprotocol.io. Active community contributor and speaker at PyCon, sharing expertise and best practices."
           }
         }
       },
@@ -117,7 +139,7 @@
         "locales": {
           "en": {
             "title": "TypeScript / Javascript",
-            "description": "Experience Time: 15 years"
+            "description": "<span style='font-weight: 800; color: #6c6868;'>15 years</span> of full-stack expertise spanning both frontend and backend development, with particular focus on type safety and modern frameworks."
           }
         }
       },
@@ -128,7 +150,7 @@
         "locales": {
           "en": {
             "title": "Rust",
-            "description": "Experience Time: 2 years"
+            "description": "<span style='font-weight: 800; color: #6c6868;'>2 years</span> expertise in systems programming with Rust, successfully applying it to build performant backend services as demonstrated in through-the-ages.com, achieving consistent global latencies below 100ms."
           }
         }
       },
@@ -139,7 +161,7 @@
         "locales": {
           "en": {
             "title": "Java / Scala",
-            "description": "Experience Time: 6 years"
+            "description": "<span style='font-weight: 800; color: #6c6868;'>6 years</span> experience in JVM-based languages and enterprise application development, with experience in both object-oriented and functional programming paradigms, applied in projects like GenMail."
           }
         }
       },
@@ -150,7 +172,7 @@
         "locales": {
           "en": {
             "title": "Vue 3",
-            "description": "Experience Time: 5 years"
+            "description": "<span style='font-weight: 800; color: #6c6868;'>5 years</span> experience in modern frontend development using Vue 3, focusing on component-based architecture and responsive design patterns, as demonstrated in through-the-ages.com"
           }
         }
       },
@@ -161,7 +183,7 @@
         "locales": {
           "en": {
             "title": "Flutter",
-            "description": "Experience Time: 4 years"
+            "description": "<span style='font-weight: 800; color: #6c6868;'>3 years</span> practical experience in cross-platform mobile development using Flutter, applied in creating the mobile companion app for through-the-ages.com, ensuring consistent user experiences across different devices."
           }
         }
       }
@@ -174,7 +196,7 @@
         "locales": {
           "en": {
             "title": "AWS",
-            "description": "Experience Time: 5 years"
+            "description": "Comprehensive expertise across the AWS ecosystem, specializing in serverless architectures, managed services, and cloud-native design patterns"
           }
         }
       },
@@ -185,7 +207,7 @@
         "locales": {
           "en": {
             "title": "Linux",
-            "description": "Experience Time: 5 years"
+            "description": "Strong command of Linux systems administration, containerization, and deployment automation in cloud environments"
           }
         }
       },
@@ -196,7 +218,29 @@
         "locales": {
           "en": {
             "title": "RDBMS",
-            "description": "Experience Time: 5 years"
+            "description": "Understanding of relational database systems like PostgreSQL, focusing on performance optimization, scalability, and data modeling."
+          }
+        }
+      },
+      {
+        "imageIconUrl": null,
+        "faIcon": "fa-solid fa-database",
+        "value": 85,
+        "locales": {
+          "en": {
+            "title": "NoSQL",
+            "description": "Practical experience with various NoSQL solutions including DynamoDB and MongoDB, implementing distributed data storage solutions for high-scale applications."
+          }
+        }
+      },
+      {
+        "imageIconUrl": null,
+        "faIcon": "fa-solid fa-database",
+        "value": 85,
+        "locales": {
+          "en": {
+            "title": "Infrastructure as Code",
+            "description": "Advanced knowledge of infrastructure automation tools, enabling reproducible and version-controlled infrastructure deployment. Code contributor to the AWS CDK."
           }
         }
       },
@@ -207,7 +251,7 @@
         "locales": {
           "en": {
             "title": "Event streaming platforms",
-            "description": "Experience Time: 5 years"
+            "description": "Extensive experience with messaging systems like Apache Kafka, implementing reliable event-driven architectures at scale"
           }
         }
       }
@@ -220,7 +264,7 @@
         "locales": {
           "en": {
             "title": "Public Speaking",
-            "description": "Todo"
+            "description": "Recognized industry expert regularly invited to tier-1 tech conferences, delivering technical talks on cloud architecture, distributed systems, and software engineering practices with a proven ability to communicate complex concepts clearly."
           }
         }
       },
@@ -231,7 +275,7 @@
         "locales": {
           "en": {
             "title": "Stakeholder management",
-            "description": "Todo"
+            "description": "Skilled in navigating complex organizational environments, effectively engaging and influencing stakeholders across all levels - from developers to executives - while aligning technical solutions with business objectives."
           }
         }
       },
@@ -242,7 +286,18 @@
         "locales": {
           "en": {
             "title": "Engineering Leadership",
-            "description": "Proficient in analyzing data with a focus on the needs and preferences of users, enabling data-driven decisions that align with user expectations."
+            "description": "Track record of leading large-scale technical initiatives and transformations, including cloud migrations, architectural modernization, and the successful delivery of high-impact products serving millions of users."
+          }
+        }
+      },
+      {
+        "imageIconUrl": null,
+        "faIcon": null,
+        "value": null,
+        "locales": {
+          "en": {
+            "title": "People Management",
+            "description": "Experienced in building and scaling high-performing engineering teams, with demonstrated success in recruitment, professional development, and performance management. Proven mentor with a focus on growing technical leaders."
           }
         }
       }
