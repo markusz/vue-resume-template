@@ -16,7 +16,7 @@
                         <!-- Image Column -->
                         <div class="col-12 col-lg-6 pe-0 pe-lg-4">
 
-                            <ImageView  :src="props.project['logoUrl']"
+                            <ImageViewProjectDemo  :src="props.project['previewUrl']"
                                         :alt="props.project['title']"
                                         :spinner-enabled="true"
                                         class="img-fluid logo my-auto my-lg-0 mb-3"/>
@@ -47,12 +47,8 @@
                             </div>
 
                             <!-- Links SubSection -->
-                            <div class="modal-subsection">
+                            <div class="modal-subsection" v-if="props.project['links'].length > 0">
                                 <!-- Title -->
-                                <h5 class="d-inline-block fw-bold">
-                                    <i class="fa fa-external-link me-2" />
-                                    <span class="ms-1">{{ data.getString('whereToFind') }}</span>
-                                </h5>
 
                                 <!-- Content -->
                                 <p v-html="data.getString('whereToFindDescription').replace('${project}', `<strong>${props.project['title']}</strong>`)"
@@ -76,6 +72,7 @@ import Modal from '/node_modules/bootstrap/js/src/modal'
 import ImageView from "../../widgets/ImageView.vue"
 import Tags from "../../widgets/Tags.vue"
 import SocialLinks from "../../widgets/SocialLinks.vue"
+import ImageViewProjectDemo from "../../widgets/ImageViewProjectDemo.vue";
 
 /**
  * @property {Object} project

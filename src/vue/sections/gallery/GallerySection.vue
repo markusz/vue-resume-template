@@ -1,12 +1,6 @@
 <template>
     <SectionTemplate :section-data="props.sectionData">
         <div class="gallery-section-row row g-0">
-            <!-- Filter -->
-            <div class="col-12">
-                <FilterTabs :items="tabItems" @selected="_onFilterTabSelected"/>
-            </div>
-
-            <!-- Grid -->
             <div class="col-12">
                 <GalleryGrid :items="filteredResults"
                              :selected-category-id="selectedCategoryId"

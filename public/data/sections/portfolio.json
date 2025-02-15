@@ -26,7 +26,9 @@
             {
                 "id": "breachprotocol",
                 "title": "breachprotocol.io",
-                "logoUrl": "images/demos/bp.gif",
+                "shortDescription": "Solve Cyberpunk 2077 mini-games with AI.",
+                "logoUrl": "images/portfolio/project-bp.png",
+                "previewUrl": "images/demos/bp.gif",
                 "links": [
                     {"faIcon": "fa-brands fa-apple", "href": "https://apple.com", "id": "App Store"},
                     {"faIcon": "fa-brands fa-google-play", "href": "https://googleplay.com", "id": "Google Play"}
@@ -41,7 +43,9 @@
             {
                 "id": "tta",
                 "title": "through-the-ages.com",
-                "logoUrl": "images/demos/tta.gif",
+                "shortDescription": "Compare before and after photos of iconic places.",
+                "logoUrl": "images/portfolio/project-ob.png",
+                "previewUrl": "images/demos/tta.gif",
                 "links": [],
                 "locales": {
                     "en": {
@@ -49,14 +53,12 @@
                         "tags": ["app", "productivity", "tasks", "focus"]
                     }
                 }
-            }
-        ],
-
-        "aws": [
+            },
             {
-                "id": "genmail",
-                "title": "GenMail",
-                "logoUrl": "images/demos/genmail.gif",
+                "id": "blitzerheld",
+                "title": "Blitzerheld",
+                "shortDescription": "Let Alexa warn you of radar-traps.",
+                "logoUrl": "images/portfolio/project-blitzerheld.png",
                 "links": [
                     {"faIcon": "fa-brands fa-github", "href": "https://apple.com", "id": "App Store"},
                     {"faIcon": "fa-brands fa-aws", "href": "https://googleplay.com", "id": "Google Play"},
@@ -68,15 +70,21 @@
                         "tags": ["app", "finance", "money", "budget"]
                     }
                 }
-            },
+            }
+
+        ],
+
+        "aws": [
             {
-                "id": "blitzerheld",
-                "title": "Blitzerheld",
-                "logoUrl": "images/portfolio/project-blitzerheld.png",
+                "id": "genmail",
+                "title": "GenMail",
+                "logoUrl": "images/portfolio/project-genmail.png",
+                "shortDescription": "A privacy-first AI email assistant.",
+                "previewUrl": "images/demos/genmail.gif",
+                "showLinks": true,
                 "links": [
-                    {"faIcon": "fa-brands fa-github", "href": "https://apple.com", "id": "App Store"},
-                    {"faIcon": "fa-brands fa-aws", "href": "https://googleplay.com", "id": "Google Play"},
-                    {"faIcon": "fa-brands fa-windows", "href": "https://windows.com", "id": "Windows Store"}
+                    {"faIcon": "fa-brands fa-github", "href": "https://apple.com", "id": "Github"},
+                    {"faIcon": "fa-brands fa-aws", "href": "https://catalog.us-east-1.prod.workshops.aws/workshops/672d35f0-13b4-4f6a-98c2-d6f050d10873/en-US/02-iac", "id": "AWS"}
                 ],
                 "locales": {
                     "en": {

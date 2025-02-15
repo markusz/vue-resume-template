@@ -24,7 +24,7 @@
                 <!-- Project Info -->
                 <div class="gallery-description-wrapper">
                     <button class="gallery-title">{{ item.data['title'] }}</button>
-                    <p class="gallery-category text-muted">{{ item.subcategory['locales']['title'] }}</p>
+                    <p class="text-muted small pt-1">{{ item.data['shortDescription'] }}</p>
                 </div>
             </div>
         </div>
