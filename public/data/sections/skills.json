@@ -40,6 +40,17 @@
       }
     },
     {
+      "id": "thoughtleadership",
+      "type": "grid",
+      "progress": null,
+      "faIcon": "",
+      "locales": {
+        "en": {
+          "title": "Thought Leadership"
+        }
+      }
+    },
+    {
       "id": "other",
       "type": "grid",
       "progress": null,
@@ -256,10 +267,133 @@
         }
       }
     ],
+    "thoughtleadership": [
+      {
+        "imageIconUrl": null,
+        "faIcon": "fa-solid fa-microphone",
+        "value": null,
+        "locales": {
+          "en": {
+            "title": "From Donald Trump to Pokémon - Data mining of the beaten path",
+            "description": "Datageeks Data Day, 2017 | <a class=\"link\" href=\"https://www.youtube.com/watch?v=pg0wQZnZaWo\">Recording</a>"
+          }
+        }
+      },
+      {
+        "imageIconUrl": null,
+        "faIcon": "fa-solid fa-microphone",
+        "value": null,
+        "locales": {
+          "en": {
+            "title": "Stubborn on the vision – flexible on the details: How Amazon teams build for speed and stability",
+            "description": "DecompileD, 2021"
+          }
+        }
+      },
+      {
+        "imageIconUrl": null,
+        "faIcon": "fa-solid fa-microphone",
+        "value": null,
+        "locales": {
+          "en": {
+            "title": "Thinking serverless: From business problem to serverless solutions",
+            "description": "AWS Innovate for every application, 2022"
+          }
+        }
+      },
+      {
+        "imageIconUrl": null,
+        "faIcon": "fa-solid fa-microphone",
+        "value": null,
+        "locales": {
+          "en": {
+            "title": "It's not exactly rocket science: A live demo of AWS GroundStation for near real-time earth observation",
+            "description": "Devoxx UK, 2023 | <a class=\"link\" href=\"https://youtu.be/8Ew_L5FFERg?si=Zc0NjZXUU7vSiJhD\">Recording</a>"
+          }
+        }
+      },
+      {
+        "imageIconUrl": null,
+        "faIcon": "fa-solid fa-microphone",
+        "value": null,
+        "locales": {
+          "en": {
+            "title": "Optimize your Python functions in AWS Lambda for speed and cost‑efficiency",
+            "description": "Devoxx UK, 2023 | <a class=\"link\" href=\"https://www.youtube.com/watch?v=MA_h_OAuUmI\">Recording</a>"
+          }
+        }
+      },
+      {
+        "imageIconUrl": null,
+        "faIcon": "fa-solid fa-microphone",
+        "value": null,
+        "locales": {
+          "en": {
+            "title": "Optimize your Java application for containers and serverless",
+            "description": "AWS Cloud Day Zurich, 2023"
+          }
+        }
+      },
+      {
+        "imageIconUrl": null,
+        "faIcon": "fa-solid fa-microphone",
+        "value": null,
+        "locales": {
+          "en": {
+            "title": "Beyond RESTful: Modern API Standards That Challenge REST's Monopoly",
+            "description": "API Conference London, 2024"
+          }
+        }
+      },
+      {
+        "imageIconUrl": null,
+        "faIcon": "fa-solid fa-microphone",
+        "value": null,
+        "locales": {
+          "en": {
+            "title": "From Monolith to Microservices With the Strangler Pattern",
+            "description": "DevOpsPro Europe, 2024 | <a class=\"link\" href=\"https://www.youtube.com/watch?v=DRf-w6pIEG0\">Recording</a>"
+          }
+        }
+      },
+      {
+        "imageIconUrl": null,
+        "faIcon": "fa-solid fa-microphone",
+        "value": null,
+        "locales": {
+          "en": {
+            "title": "Chaos engineering in the cloud: A road to resiliency",
+            "description": "Nordic Testing Days, 2024"
+          }
+        }
+      },
+      {
+        "imageIconUrl": null,
+        "faIcon": "fa-solid fa-microphone",
+        "value": null,
+        "locales": {
+          "en": {
+            "title": "How AWS generates polyglot libraries based on a single TypeScript codebase",
+            "description": "WeAreDevelopers World Congress, 2024"
+          }
+        }
+      },
+      {
+        "imageIconUrl": null,
+        "faIcon": "fa-solid fa-microphone",
+        "value": null,
+        "locales": {
+          "en": {
+            "title": "Understanding idempotency in distributed systems",
+            "description": "AWS re:invent, 2024"
+          }
+        }
+      }
+    ],
     "other": [
       {
         "imageIconUrl": null,
-        "faIcon": null,
+        "faIcon": "fa-solid fa-microphone",
         "value": null,
         "locales": {
           "en": {
@@ -270,7 +404,7 @@
       },
       {
         "imageIconUrl": null,
-        "faIcon": null,
+        "faIcon": "fa-solid fa-people-group",
         "value": null,
         "locales": {
           "en": {
@@ -281,7 +415,7 @@
       },
       {
         "imageIconUrl": null,
-        "faIcon": null,
+        "faIcon": "fa-solid fa-gears",
         "value": null,
         "locales": {
           "en": {
@@ -292,7 +426,7 @@
       },
       {
         "imageIconUrl": null,
-        "faIcon": null,
+        "faIcon": "fa-solid fa-user-group",
         "value": null,
         "locales": {
           "en": {

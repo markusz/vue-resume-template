@@ -2,7 +2,7 @@
     "locales": {
         "en": {
             "title": "My <span class='text-primary'>Portfolio</span>",
-            "description": "Some of my recent projects I work on privately or publicly."
+            "description": "Some of the recent projects I worked on."
         }
     },
 
