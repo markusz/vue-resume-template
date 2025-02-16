@@ -16,8 +16,8 @@
         },
 
         {
-            "id": "more",
-            "faIcon": "fa-solid fa-plus"
+            "id": "portfolio",
+            "faIcon": "fa-solid fa-images"
         }
     ],
 
@@ -52,8 +52,15 @@
             "faIcon": "fa-solid fa-tools"
         },
         {
-            "id": "portfolio",
+            "id": "tl",
             "categoryId": "showcase",
+            "component": "InfoSection",
+            "jsonPath": "data/sections/thoughtleadership.json",
+            "faIcon": "fa-solid fa-microphone"
+        },
+        {
+            "id": "portfolio",
+            "categoryId": "portfolio",
             "component": "GallerySection",
             "jsonPath": "data/sections/portfolio.json",
             "faIcon": "fa-solid fa-folder-open"

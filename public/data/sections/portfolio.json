@@ -36,11 +36,10 @@
           "en": {
             "description": "<a class=\"link\" href=\"https://breachprotocol.io\">breachprotocol.io</a> is an online tool that helps Cyberpunk 2077 players solve Breach Protocol puzzles. It uses multi-modal LLMs to analyze screenshots of the puzzle grid and then calculates the most efficient sequence of codes to complete the breach, saving players time and frustration.",
             "tags": [
-              "App",
               "AI",
               "LLM",
               "Python",
-              "Vue"
+              "Vue 3"
             ]
           }
         }
@@ -56,9 +55,13 @@
           "en": {
             "description": "<a class=\"link\" href=\"https://through-the-ages.com\">through-the-ages.com</a> lets you explore the past and present of any location with side-by-side before-and-after photos. Users can upload historical and modern images from the same spot, compare them with an interactive slider, and browse a map of transformations over time. Discover how places evolve and contribute to a growing visual history of the world!",
             "tags": [
-              "Images",
-              "Map",
-              "Global application"
+              "Vue 3",
+              "Python",
+              "TypeScript",
+              "Rust",
+              "Serverless",
+              "AWS",
+              "CDK"
             ]
           }
         }
@@ -66,7 +69,7 @@
       {
         "id": "blitzerheld",
         "title": "Blitzerheld",
-        "shortDescription": "Let Alexa warn you of radar-traps.",
+        "shortDescription": "Let Alexa warn you of speed-traps.",
         "logoUrl": "images/portfolio/project-blitzerheld.png",
         "links": [
           {
@@ -80,7 +83,10 @@
             "description": "<a class=\"link\" href=\"https://www.amazon.de/Markus-Ziller-Blitzerheld/dp/B076JR1RMG\">Blitzerheld</a> is your reliable driving companion that helps you maintain appropriate speeds by alerting you to upcoming speed cameras. It works by comparing your route or location with comprehensive speed camera databases, providing precise locations of speed monitoring systems along your way.",
             "tags": [
               "Alexa",
-              "Smart Home"
+              "Smart Home",
+              "AWS",
+              "TypeScript",
+              "CDK"
             ]
           }
         }
@@ -95,7 +101,26 @@
           "en": {
             "description": "This very website, built with Vue 3 and Bootstrap 5. Optimized for UX and responsiveness.",
             "tags": [
-              "Vue3"
+              "Vue3",
+              "SSR"
+            ]
+          }
+        }
+      },
+      {
+        "id": "chespy",
+        "title": "Chespy",
+        "shortDescription": "My long-term passion project: Build a chess engine that I can't beat anymore.",
+        "logoUrl": "images/portfolio/project-pychess.png",
+        "links": [],
+        "locales": {
+          "en": {
+            "description": "My long-term passion project: Building a chess engine in Python, entirely from scratch, without any outside help—no tutorials, no best practices, no external guidance. Every aspect, from board representation to move evaluation, is designed solely by me. My goal: create an engine so strong that I can no longer beat it. ",
+            "tags": [
+              "Python",
+              "Optimization",
+              "Algorithms",
+              "Data structures"
             ]
           }
         }
@@ -128,7 +153,8 @@
               "AI",
               "LLM",
               "AWS",
-              "workshop"
+              "Python",
+              "TypeScript"
             ]
           }
         }
