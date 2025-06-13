@@ -104,7 +104,7 @@
         "locales": {
           "en": {
             "title": "Beyond RESTful: Modern API Standards That Challenge REST's Monopoly",
-            "description": "API Conference London, 2024"
+            "description": "API Conference London, 2024 | <a class=\"link\" href=\"https://www.youtube.com/watch?v=ljNJjDr3LMc\">Recording</a>"
           }
         }
       },
@@ -147,7 +147,7 @@
         "value": null,
         "locales": {
           "en": {
-            "title": "Generative AI applied",
+            "title": "Generative AI applied - Let's build an email assistant from scratch",
             "description": "GenAI Deep Dive Days, 2024"
           }
         }
@@ -160,6 +160,17 @@
           "en": {
             "title": "Understanding idempotency in distributed systems",
             "description": "AWS re:invent, 2024"
+          }
+        }
+      },
+      {
+        "imageIconUrl": null,
+        "faIcon": "fa-solid fa-microphone",
+        "value": null,
+        "locales": {
+          "en": {
+            "title": "Code, not tickets: Platform engineering at scale",
+            "description": "AWS Summit Hamburg, 2025"
           }
         }
       }
