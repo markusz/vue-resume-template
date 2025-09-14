@@ -71,7 +71,7 @@ export function useUtils() {
             options
         )
 
-        return localizedDate.charAt(0).toUpperCase() + localizedDate.slice(1)
+        return stringDate === 'now' ? 'now' : localizedDate.charAt(0).toUpperCase() + localizedDate.slice(1)
     }
 
     /**

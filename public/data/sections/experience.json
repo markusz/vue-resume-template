@@ -76,6 +76,30 @@
           ]
         }
       }
+    },
+    {
+      "id": "experience_item_4",
+      "place": "@link{places.helsing}",
+      "period": [
+        "2025/10",
+        "now"
+      ],
+      "locales": {
+        "en": {
+          "title": "Software Engineer",
+          "description": "Cool shit",
+          "tags": [
+            "AWS",
+            "Cloud Architecture",
+            "Rust",
+            "ML",
+            "Software Engineering",
+            "Microservices",
+            "Python",
+            "TypeScript"
+          ]
+        }
+      }
     }
   ]
 }
