@@ -124,6 +124,58 @@
             ]
           }
         }
+      },
+      {
+        "id": "somfycli",
+        "title": "Somfy CLI",
+        "shortDescription": "Control your Somfy smart home devices via CLI from any device.",
+        "logoUrl": "images/portfolio/project-somfycli.png",
+        "links": [],
+        "locales": {
+          "en": {
+            "description": "Control your Somfy smart home devices from any device - desktop, server, or automation scripts. Works entirely through your local gateway with no cloud dependencies required.",
+            "tags": [
+              "Rust",
+              "Smart home",
+              "IoT"
+            ]
+          }
+        }
+      },
+      {
+        "id": "somfysdk",
+        "title": "Somfy SDK",
+        "shortDescription": "A Rust library providing type-safe, async access to the Somfy API for controlling smart home devices.",
+        "logoUrl": "images/portfolio/project-somfysdk.png",
+        "links": [],
+        "locales": {
+          "en": {
+            "description": "A Rust library providing type-safe, async access to the Somfy API for controlling smart home devices.",
+            "tags": [
+              "Rust",
+              "Smart home",
+              "IoT"
+            ]
+          }
+        }
+      },
+      {
+        "id": "betterconfs",
+        "title": "betterconfs.com",
+        "shortDescription": "Interactive map-based platform for discovering tech conferences and call-for-papers opportunities.",
+        "logoUrl": "images/portfolio/project-betterconfs.png",
+        "previewUrl": "images/demos/betterconfs.gif",
+        "links": [],
+        "locales": {
+          "en": {
+            "description": "A full-stack web application that aggregates and displays upcoming tech conferences and call-for-papers (CFP) opportunities on an interactive map",
+            "tags": [
+              "node.js",
+              "Vue",
+              "Serverless"
+            ]
+          }
+        }
       }
     ],
     "aws": [
