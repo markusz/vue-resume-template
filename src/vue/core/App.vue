@@ -1,16 +1,15 @@
 <template>
-    <!-- Feedbacks -->
-    <FeedbackView ref="feedbackView"/>
+  <SpeedInsights/>
+  <Analytics/>
+  <FeedbackView ref="feedbackView"/>
 
-    <!-- Preloader -->
-    <Loader ref="loader"
-            @shown="_onPreloaderShown"
-            @hiding="_onPreloaderHiding"/>
+  <Loader ref="loader"
+          @shown="_onPreloaderShown"
+          @hiding="_onPreloaderHiding"/>
 
-    <!-- App Content -->
-    <Layout ref="pageWrapper">
-        <router-view/>
-    </Layout>
+  <Layout ref="pageWrapper">
+    <router-view/>
+  </Layout>
 </template>
 
 <script setup>
@@ -22,6 +21,8 @@ import {useData} from "../../composables/data.js"
 import {useLayout} from "../../composables/layout.js"
 import {useRouter} from "vue-router"
 import {useNavigation} from "/src/composables/navigation.js"
+import {SpeedInsights} from "@vercel/speed-insights/vue"
+import {Analytics} from '@vercel/analytics/vue';
 
 const data = useData()
 const layout = useLayout()
@@ -33,17 +34,16 @@ const loader = ref(null)
 const pageWrapper = ref(null)
 
 const preloaderEnabled = computed(() => {
-    return data.getSettings()['preloaderEnabled']
+  return data.getSettings()['preloaderEnabled']
 })
 
 onMounted(() => {
-    layout.setFeedbackView(feedbackView)
-    if(preloaderEnabled.value) {
-        loader.value.run()
-    }
-    else {
-        _skipPreloader()
-    }
+  layout.setFeedbackView(feedbackView)
+  if (preloaderEnabled.value) {
+    loader.value.run()
+  } else {
+    _skipPreloader()
+  }
 })
 
 /**
@@ -51,8 +51,8 @@ onMounted(() => {
  * @private
  */
 const _onPreloaderShown = async () => {
-    layout.setPageScrollingEnabled(false)
-    await data.fetchAll()
+  layout.setPageScrollingEnabled(false)
+  await data.fetchAll()
 }
 
 /**
@@ -60,8 +60,8 @@ const _onPreloaderShown = async () => {
  * @private
  */
 const _onPreloaderHiding = () => {
-    layout.setPageScrollingEnabled(true)
-    pageWrapper.value.init()
+  layout.setPageScrollingEnabled(true)
+  pageWrapper.value.init()
 }
 
 /**
@@ -69,9 +69,9 @@ const _onPreloaderHiding = () => {
  * @private
  */
 const _skipPreloader = async () => {
-    await data.fetchAll()
-    layout.setPageScrollingEnabled(true)
-    pageWrapper.value.init()
+  await data.fetchAll()
+  layout.setPageScrollingEnabled(true)
+  pageWrapper.value.init()
 }
 
 /**
@@ -80,28 +80,28 @@ const _skipPreloader = async () => {
  * @private
  */
 router.beforeEach((to, from, next) => {
-    if(navigation.isAllAtOnceMode() || window.scrollY <= 0) {
-        next()
-        return
-    }
+  if (navigation.isAllAtOnceMode() || window.scrollY <= 0) {
+    next()
+    return
+  }
 
-    const fromCategory = navigation.getSectionCategory(from.name)
-    const toCategory = navigation.getSectionCategory(to.name)
-    if(fromCategory === toCategory && window.scrollY <= 200) {
-        next()
-        return
-    }
+  const fromCategory = navigation.getSectionCategory(from.name)
+  const toCategory = navigation.getSectionCategory(to.name)
+  if (fromCategory === toCategory && window.scrollY <= 200) {
+    next()
+    return
+  }
 
-    const feedbackView = layout.getFeedbackView()
-    feedbackView.showActivitySpinner(data.getString('loading') + "...")
+  const feedbackView = layout.getFeedbackView()
+  feedbackView.showActivitySpinner(data.getString('loading') + "...")
 
-    setTimeout(() => {
-        next()
-        layout.instantScrollTo(0, true)
-    }, 30)
-    setTimeout(() => {
-        feedbackView.hideActivitySpinner()
-    }, 200)
+  setTimeout(() => {
+    next()
+    layout.instantScrollTo(0, true)
+  }, 30)
+  setTimeout(() => {
+    feedbackView.hideActivitySpinner()
+  }, 200)
 })
 </script>
 
