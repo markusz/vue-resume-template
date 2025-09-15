@@ -26,14 +26,6 @@
             "href": "mailto:hello@markusziller.de"
         },
 
-        "facebook": {
-            "id": "facebook",
-            "value": "Jonas Einstein",
-            "valueShort": "J. Einstein",
-            "faIcon": "fa-brands fa-facebook",
-            "href": "https://facebook.com"
-        },
-
         "github": {
             "id": "github",
             "value": "https://github.com/markusz",
@@ -44,8 +36,8 @@
 
         "linkedin": {
             "id": "linkedin",
-            "value": "@jonas.einstein.official",
-            "valueShort": "@jonas.einstein.official",
+            "value": "@markusziller",
+            "valueShort": "@markusziller",
             "faIcon": "fa-brands fa-linkedin",
             "href": "https://www.linkedin.com/in/markusziller/"
         }
