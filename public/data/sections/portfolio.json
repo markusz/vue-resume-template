@@ -130,7 +130,13 @@
         "title": "Somfy CLI",
         "shortDescription": "Control your Somfy smart home devices via CLI from any device.",
         "logoUrl": "images/portfolio/project-somfycli.png",
-        "links": [],
+        "links": [
+          {
+            "faIcon": "fa-brands fa-github",
+            "href": "https://github.com/markusz/somfy-cli",
+            "id": "Github"
+          }
+        ],
         "locales": {
           "en": {
             "description": "Control your Somfy smart home devices from any device - desktop, server, or automation scripts. Works entirely through your local gateway with no cloud dependencies required.",
@@ -147,7 +153,13 @@
         "title": "Somfy SDK",
         "shortDescription": "A Rust library providing type-safe, async access to the Somfy API for controlling smart home devices.",
         "logoUrl": "images/portfolio/project-somfysdk.png",
-        "links": [],
+        "links": [
+          {
+            "faIcon": "fa-brands fa-github",
+            "href": "https://github.com/markusz/somfy-sdk",
+            "id": "Github"
+          }
+        ],
         "locales": {
           "en": {
             "description": "A Rust library providing type-safe, async access to the Somfy API for controlling smart home devices.",
@@ -165,7 +177,11 @@
         "shortDescription": "Interactive map-based platform for discovering tech conferences and call-for-papers opportunities.",
         "logoUrl": "images/portfolio/project-betterconfs.png",
         "previewUrl": "images/demos/betterconfs.gif",
-        "links": [],
+        "links": [{
+          "faIcon": "fa-solid fa-globe",
+          "href": "betterconfs.com",
+          "id": "Page"
+        }],
         "locales": {
           "en": {
             "description": "A full-stack web application that aggregates and displays upcoming tech conferences and call-for-papers (CFP) opportunities on an interactive map",
