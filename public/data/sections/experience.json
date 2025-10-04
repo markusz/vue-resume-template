@@ -60,7 +60,7 @@
       "locales": {
         "en": {
           "title": "Senior Solutions Architect",
-          "description": "I design and optimize high-scale cloud architectures, handling millions of transactions and petabyte-scale data across global, multi-region deployments. With expertise in distributed systems and event-driven architectures, I’ve built platforms for 30k+ users and mentored team members who earned promotions. I’ve contributed to major open-source projects, published over 15 technical papers, and regularly speak at tier-1 tech conferences.",
+          "description": "At AWS, I worked on high-scale, data-intensive cloud architectures, handling millions of transactions and petabyte-scale data across global, multi-region deployments. Besides my work on distributed systems, I’ve contributed to major open-source projects, published over 15 technical papers, and regularly spoke at tier-1 tech conferences.",
           "tags": [
             "AWS",
             "Cloud Architecture",
@@ -73,6 +73,28 @@
             "Rust",
             "Python",
             "TypeScript"
+          ]
+        }
+      }
+    },
+    {
+      "id": "experience_item_4",
+      "place": "@link{places.helsing}",
+      "period": [
+        "2025/10",
+        "now"
+      ],
+      "locales": {
+        "en": {
+          "title": "Software Engineer",
+          "description": "At Helsing, I work on AI to help protect our democracies",
+          "tags": [
+            "AWS",
+            "Cloud Architecture",
+            "Rust",
+            "AI/ML",
+            "Software Engineering",
+            "Nix"
           ]
         }
       }
