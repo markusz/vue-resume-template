@@ -18,10 +18,10 @@
           "title": "Software Engineer",
           "description": "I led the development of a highly scalable second-screen application, boosting its elasticity by 350%, enabling it to scale from 0 to 42K concurrent connections in just one minute. I also reduced operational costs by 40% through right-sizing and efficient caching. As a backend engineer, I contributed to a VOD solution for Deutsche Bahn’s high-speed trains, developed deployment tools for software updates across 80 trains, and improved an ad-tech solution, cutting error rates and saving ~600K€ annually.",
           "tags": [
-            "Scalability",
-            "Software Engineering",
+            "Backend Engineering",
+            "Distributed Systems",
             "Event-Driven Architecture",
-            "Serverless"
+            "Scalability"
           ]
         }
       }
@@ -38,14 +38,12 @@
           "title": "Director of Engineering",
           "description": "I led ProSiebenSat.1’s Content Services Engineering division, delivering video-on-demand to 20M+ MAU through a distributed, event-driven architecture with 50+ microservices. I drove significant improvements, reducing latency by 82%, speeding up deployments from monthly to daily, and reengineering the B2B content syndication pipeline. As part of the core engineering team, I helped launch Joyn in 9 months, scaled the division to 45+ FTEs, and delivered an AWS migration ahead of schedule and under budget.",
           "tags": [
-            "Tech leadership",
+            "Engineering Leadership",
             "Cloud Architecture",
             "Distributed Systems",
-            "Engineering Efficiency",
-            "AWS",
-            "Distributed Systems",
-            "Manager of managers",
-            "Hypergrowth"
+            "Event-Driven Architecture",
+            "Microservices",
+            "AWS"
           ]
         }
       }
@@ -60,16 +58,12 @@
       "locales": {
         "en": {
           "title": "Senior Solutions Architect",
-          "description": "At AWS, I worked on high-scale, data-intensive cloud architectures, handling millions of transactions and petabyte-scale data across global, multi-region deployments. Besides my work on distributed systems, I’ve contributed to major open-source projects, published over 15 technical papers, and regularly spoke at tier-1 tech conferences.",
+          "description": "At AWS, I worked on ground segment automation and scheduling for AWS Ground Station — helping customers manage satellite contacts and automate data downlinks in near real time. I also worked across distributed, data-intensive cloud architectures, contributed to open-source projects, published technical content, and spoke at conferences.",
           "tags": [
-            "AWS",
+            "AWS Ground Station",
             "Cloud Architecture",
             "Distributed Systems",
-            "Event-Driven Architecture",
-            "Software Engineering",
-            "Microservices",
-            "OSS",
-            "Thought Leadership",
+            "Open Source",
             "Rust",
             "Python",
             "TypeScript"
@@ -87,14 +81,13 @@
       "locales": {
         "en": {
           "title": "Software Engineer",
-          "description": "At Helsing, I work on AI to help protect our democracies",
+          "description": "At Helsing, I work on software for AI systems operating under hard physical and operational constraints.",
           "tags": [
-            "AWS",
-            "Cloud Architecture",
             "Rust",
+            "Nix",
             "AI/ML",
-            "Software Engineering",
-            "Nix"
+            "Systems Programming",
+            "Optimization"
           ]
         }
       }

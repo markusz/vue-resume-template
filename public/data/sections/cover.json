@@ -1,21 +1,21 @@
 {
-    "locales": {
-        "en": {
-            "welcome": "Welcome to my <span class='text-primary'>Resume!</span>",
-            "welcomeShort": "Welcome!",
-            "bio": "I'm a Software Engineer that currently works as a Senior Solutions Architect at Amazon Web Services.<br><br>I have a Master's Degree in Information Systems from the Technical University of Munich and have been developing software since the late 90s. Nowadays I mostly work on designing and developing cloud-native applications at scale.<br><br>I'm a tech generalist with a sound understanding of most areas in today's IT landscapes and expert knowledge in distributed data-intensive applications, event-driven architectures and serverless computing. I'm proficient in Python, node.js, Rust and have hands-on experience with popular technologies such as Flutter, Vue, Docker, Kafka and Spark.<br><br>I managed organisations of up to 50 people at a director level, but overall prefer individual contributor roles."
-        }
-    },
-
-    "items": {
-        "socialCircles": [
-            "@link{profile.contact.linkedin}",
-            "@link{profile.contact.github}"
-        ],
-
-        "contactListItems": [
-            "@link{profile.contact.address}",
-            "@link{profile.contact.email}"
-        ]
+  "locales": {
+    "en": {
+      "welcome": "Welcome to my <span class='text-primary'>Resume!</span>",
+      "welcomeShort": "Welcome!",
+      "bio": "I'm a Software Engineer currently at Helsing.<br><br>I hold a Master's Degree in Information Systems from the Technical University of Munich and have been writing software since the late 90s. I tend to work on systems with hard operational constraints - domains where the underlying physics shape the design as much as the software does.<br><br>Before that, I spent six years at AWS, working on ground segment automation and scheduling for AWS Ground Station, alongside broader work on distributed, data-intensive cloud architectures.<br><br>Rust is my primary language these days, but I also work in Python and TypeScript. Across all areas, I contribute to open-source, and occasionally speak at tech conferences."
     }
+  },
+
+  "items": {
+    "socialCircles": [
+      "@link{profile.contact.linkedin}",
+      "@link{profile.contact.github}"
+    ],
+
+    "contactListItems": [
+      "@link{profile.contact.address}",
+      "@link{profile.contact.email}"
+    ]
+  }
 }
