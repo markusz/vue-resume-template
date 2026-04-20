@@ -123,34 +123,34 @@
     "programming": [
       {
         "imageIconUrl": null,
+        "faIcon": "fab fa-rust",
+        "value": 85,
+        "locales": {
+          "en": {
+            "title": "Rust",
+            "description": "<span style='font-weight: 800; color: #6c6868;'>5 years</span> of Rust as a primary language, applied across backend services, systems programming, and performance-critical workloads — including production use at AWS and Helsing."
+          }
+        }
+      },
+      {
+        "imageIconUrl": null,
         "faIcon": "fab fa-python",
-        "value": 95,
+        "value": 90,
         "locales": {
           "en": {
             "title": "Python",
-            "description": "<span style='font-weight: 800; color: #6c6868;'>12 years</span> of experience in building production-grade applications, demonstrated through projects like PyChess and breachprotocol.io. Active community contributor and speaker at PyCon, sharing expertise and best practices."
+            "description": "<span style='font-weight: 800; color: #6c6868;'>12 years</span> of production use across data-intensive applications, automation, and backend services. Active community contributor and speaker at PyCon."
           }
         }
       },
       {
         "imageIconUrl": null,
         "faIcon": "fab fa-js-square",
-        "value": 90,
+        "value": 85,
         "locales": {
           "en": {
-            "title": "TypeScript / Javascript",
-            "description": "<span style='font-weight: 800; color: #6c6868;'>15 years</span> of full-stack expertise spanning both frontend and backend development, with particular focus on type safety and modern frameworks."
-          }
-        }
-      },
-      {
-        "imageIconUrl": null,
-        "faIcon": "fab fa-rust",
-        "value": 65,
-        "locales": {
-          "en": {
-            "title": "Rust",
-            "description": "<span style='font-weight: 800; color: #6c6868;'>2 years</span> expertise in systems programming with Rust, successfully applying it to build performant backend services as demonstrated in through-the-ages.com, achieving consistent global latencies below 100ms."
+            "title": "TypeScript / JavaScript",
+            "description": "<span style='font-weight: 800; color: #6c6868;'>15 years</span> across frontend and backend development, with a preference for TypeScript and a track record of shipping full-stack applications at scale."
           }
         }
       },
@@ -161,29 +161,29 @@
         "locales": {
           "en": {
             "title": "Java / Scala",
-            "description": "<span style='font-weight: 800; color: #6c6868;'>6 years</span> experience in JVM-based languages and enterprise application development, with experience in both object-oriented and functional programming paradigms, applied in projects like GenMail."
+            "description": "<span style='font-weight: 800; color: #6c6868;'>6 years</span> of JVM experience, though that was five+ years ago. Most of what I'd have reached for Java to do, I now do in Rust."
           }
         }
       },
       {
         "imageIconUrl": null,
         "faIcon": "fab fa-vuejs",
-        "value": 85,
+        "value": 75,
         "locales": {
           "en": {
             "title": "Vue 3",
-            "description": "<span style='font-weight: 800; color: #6c6868;'>5 years</span> experience in modern frontend development using Vue 3, focusing on component-based architecture and responsive design patterns, as demonstrated in through-the-ages.com"
+            "description": "<span style='font-weight: 800; color: #6c6868;'>5 years</span> of frontend development with Vue 3, focusing on component-based architecture and responsive design."
           }
         }
       },
       {
         "imageIconUrl": null,
         "faIcon": "fab fa-flutter",
-        "value": 85,
+        "value": 70,
         "locales": {
           "en": {
             "title": "Flutter",
-            "description": "<span style='font-weight: 800; color: #6c6868;'>3 years</span> practical experience in cross-platform mobile development using Flutter, applied in creating the mobile companion app for through-the-ages.com, ensuring consistent user experiences across different devices."
+            "description": "<span style='font-weight: 800; color: #6c6868;'>3 years</span> of cross-platform mobile development with Flutter, building consistent experiences across iOS and Android."
           }
         }
       }

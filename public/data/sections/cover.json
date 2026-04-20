@@ -3,7 +3,7 @@
     "en": {
       "welcome": "Welcome to my <span class='text-primary'>Resume!</span>",
       "welcomeShort": "Welcome!",
-      "bio": "I'm a Software Engineer currently at Helsing.<br><br>I hold a Master's Degree in Information Systems from the Technical University of Munich and have been writing software since the late 90s. I tend to work on systems with hard operational constraints - domains where the underlying physics shape the design as much as the software does.<br><br>Before Helsing, I spent six years at AWS, working on ground segment automation and scheduling for AWS Ground Station, alongside broader work on distributed, data-intensive cloud architectures.<br><br>Rust is my primary language these days, but I also work in Python and TypeScript. Across all areas, I contribute to open-source, and occasionally speak at tech conferences."
+      "bio": "I'm a Software Engineer currently at Helsing.<br><br>I hold a Master's Degree in Information Systems from the Technical University of Munich and have been writing software since the late 90s. I tend to work on systems with hard operational constraints - domains where the underlying physics shape the design as much as the software does.<br><br>Before Helsing, I spent six years at AWS, working on ground segment automation and scheduling for AWS Ground Station, alongside broader work on distributed, data-intensive cloud architectures.<br><br>Rust has been my primary language for five years, with Python and TypeScript rounding out the toolbox. I contribute to open-source and occasionally speak at tech conferences."
     }
   },
 
