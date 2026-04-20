@@ -128,7 +128,7 @@
         "locales": {
           "en": {
             "title": "Rust",
-            "description": "<span style='font-weight: 800; color: #6c6868;'>5 years</span> of Rust as a primary language, applied across backend services, systems programming, and performance-critical workloads — including production use at AWS and Helsing."
+            "description": "<span style='font-weight: 800; color: #6c6868;'>5 years</span> of Rust as a primary language, applied across backend services, systems programming, and performance-critical workloads at AWS and Helsing."
           }
         }
       },
