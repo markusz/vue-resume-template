@@ -137,7 +137,7 @@
         "locales": {
           "en": {
             "title": "How AWS generates polyglot libraries based on a single TypeScript codebase",
-            "description": "WeAreDevelopers World Congress, 2024"
+            "description": "WeAreDevelopers World Congress, 2024 | <a class=\"link\" href=\"https://www.wearedevelopers.com/videos/1026-how-aws-generates-polyglot-libraries-based-on-a-single-typescript-codebase\">Recording</a>"
           }
         }
       },
