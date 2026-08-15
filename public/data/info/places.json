@@ -44,12 +44,11 @@
       }
     }
   },
-  "helsing": {
-    "logoUrl": "images/places/logo-helsing.png",
+  "defensetech": {
     "faIcon": "fas fa-paint-brush",
     "locales": {
       "en": {
-        "name": "Helsing"
+        "name": "Defence Technology"
       }
     }
   }

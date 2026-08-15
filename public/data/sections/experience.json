@@ -73,7 +73,7 @@
     },
     {
       "id": "experience_item_4",
-      "place": "@link{places.helsing}",
+      "place": "@link{places.defensetech}",
       "period": [
         "2025/10",
         "now"
@@ -81,7 +81,7 @@
       "locales": {
         "en": {
           "title": "Software Engineer",
-          "description": "At Helsing, I work on software for AI systems operating under hard physical and operational constraints.",
+          "description": "I work in defence technology, building software for AI systems operating under hard physical and operational constraints.",
           "tags": [
             "Rust",
             "Nix",
